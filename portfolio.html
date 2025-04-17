@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pradnya's Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script defer src="portfolio.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-logo">Pradnya</div>
+    <div class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 data-aos="fade-up" data-aos-delay="100">Hi, I'm <span class="highlight">Pradnya</span></h1>
+      <p class="subtitle" data-aos="fade-up" data-aos-delay="200">Machine Learning & GenAI Enthusiast</p>
+      <p class="description" data-aos="fade-up" data-aos-delay="300">B.Tech AIML Final Year | Building the future with AI</p>
+      <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+        <a href="#projects" class="primary-btn">View Projects</a>
+        <a href="resume.pdf" download class="secondary-btn">Download Resume</a>
+      </div>
+      <div class="social-icons" data-aos="fade-up" data-aos-delay="500">
+        <a href="https://github.com/PradnyaKarmalkar" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/pradnyakarmalkar/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:pradnyakarmalkar081@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-image" data-aos="fade-left" data-aos-delay="300">
+      <div class="abstract-avatar">
+        <div class="avatar-element"></div>
+        <div class="avatar-circle circle-1"></div>
+        <div class="avatar-circle circle-2"></div>
+        <div class="avatar-circle circle-3"></div>
+        <div class="avatar-shape shape-1"></div>
+        <div class="avatar-shape shape-2"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2 class="section-title" data-aos="fade-up">About Me</h2>
+    <div class="about-container">
+      <div class="about-image" data-aos="fade-right">
+        <div class="tech-illustration">
+          <div class="tech-icon"><i class="fas fa-brain"></i></div>
+          <div class="tech-icon"><i class="fas fa-code"></i></div>
+          <div class="tech-icon"><i class="fas fa-robot"></i></div>
+          <div class="tech-icon"><i class="fas fa-cogs"></i></div>
+          <div class="tech-icon"><i class="fas fa-microchip"></i></div>
+          <div class="tech-connector"></div>
+        </div>
+      </div>
+      <div class="about-content" data-aos="fade-left">
+        <p>Passionate about building intelligent systems using Machine Learning, Deep Learning, and GenAI. I have worked on several innovative projects like personal assistants, predictive maintenance, and more.</p>
+        <p>My journey in AI began when I realized the transformative potential of intelligent systems. Since then, I've been dedicated to creating solutions that make a difference. Currently, I’m also exploring full-stack technologies to build end-to-end solutions.</p>
+        <div class="about-stats">
+          <div class="stat">
+            <span>5+</span>
+            <p>Projects</p>
+          </div>
+          <div class="stat">
+            <span>3+</span>
+            <p>Years Coding</p>
+          </div>
+          <div class="stat">
+            <span>4+</span>
+            <p>Tech Stack</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+        <h3>Languages</h3>
+        <div class="skill-items">
+          <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+          <div class="skill-item"><i class="fas fa-code"></i> C</div>
+          <div class="skill-item"><i class="fab fa-html5"></i> HTML/CSS</div>
+          <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+        </div>
+      </div>
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+        <h3>AI & ML</h3>
+        <div class="skill-items">
+          <div class="skill-item"><i class="fas fa-brain"></i> Machine Learning</div>
+          <div class="skill-item"><i class="fas fa-network-wired"></i> Deep Learning</div>
+          <div class="skill-item"><i class="fas fa-robot"></i> GenAI</div>
+          <div class="skill-item"><i class="fas fa-comment-dots"></i> Prompt Engineering</div>
+        </div>
+      </div>
+      <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+        <h3>Frameworks & Tools</h3>
+        <div class="skill-items">
+          <div class="skill-item"><i class="fas fa-chart-line"></i> TensorFlow</div>
+          <div class="skill-item"><i class="fas fa-database"></i> MySQL</div>
+          <div class="skill-item"><i class="fab fa-react"></i> Next.js</div>
+          <div class="skill-item"><i class="fas fa-hug"></i> HuggingFace</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+    <div class="projects-container">
+      <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-image">
+          <div class="project-icon"><i class="fas fa-comment-dots"></i></div>
+        </div>
+        <div class="project-content">
+          <h3>Meet EVA</h3>
+          <p>A witty personal assistant using LLMs, LangChain, HuggingFace, Gradio.</p>
+          <div class="project-technologies">
+            <span>LangChain</span>
+            <span>HuggingFace</span>
+            <span>Gradio</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-eva" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-image">
+          <div class="project-icon"><i class="fas fa-file-alt"></i></div>
+        </div>
+        <div class="project-content">
+          <h3>Research Buddy</h3>
+          <p>AI assistant to analyze PDFs and websites, generates reports & summaries.</p>
+          <div class="project-technologies">
+            <span>Python</span>
+            <span>LLMs</span>
+            <span>PDF Processing</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-researchbuddy" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="project-image">
+          <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+        </div>
+        <div class="project-content">
+          <h3>Predictive Maintenance Dashboard</h3>
+          <p>Prevents machine downtime using ML & Streamlit UI.</p>
+          <div class="project-technologies">
+            <span>Machine Learning</span>
+            <span>Streamlit</span>
+            <span>Data Analysis</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-predictivemaint" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="project-image">
+          <div class="project-icon"><i class="fas fa-trophy"></i></div>
+        </div>
+        <div class="project-content">
+          <h3>Cricket Lineup Visualizer</h3>
+          <p>Dashboard showing best playing order based on cricket stats.</p>
+          <div class="project-technologies">
+            <span>Data Visualization</span>
+            <span>Statistics</span>
+            <span>Interactive UI</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/your-cricketproj" class="project-link"><i class="fab fa-github"></i> Code</a>
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+    <div class="contact-container">
+      <div class="contact-info" data-aos="fade-right">
+        <p>I'm open to freelance opportunities, collaborations, and discussions about AI and machine learning.</p>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:your-email@example.com">your-email@example.com</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://linkedin.com/in/your-linkedin">linkedin.com/in/your-linkedin</a>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/your-github">github.com/your-github</a>
+        </div>
+      </div>
+      <div class="contact-form" data-aos="fade-left">
+        <form id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Pradnya</div>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/your-github" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/your-linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:your-email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Pradnya. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+</body>
+</html>
